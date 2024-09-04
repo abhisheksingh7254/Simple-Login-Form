@@ -1,0 +1,42 @@
+body{
+  background-image:url("./image/form.jpeg");
+  background-size: cover;
+  
+}
+::placeholder{
+  opacity: .7;
+}
+
+.loginForm {
+  
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+.inputWrap{
+  width: 300px;
+  height: 35px;
+  margin-bottom: 20px;
+  border: 0px;
+  padding: 0px;
+  border-radius: 3px;
+  color: grey;
+  border: none;
+}
+.gif{
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+}
+.password{
+  margin-bottom: 40px;
+  /* padding: 0px 5px; */
+}
+.login{
+  color: rgb(99, 53, 196) !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  
+}
